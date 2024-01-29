@@ -24,6 +24,7 @@ public class ArrayTest3_contains_and_remove {
 			if(list1.contains(list2.get(i))) {
 				//list2.remove(i);
 				list2.remove(i--);
+				System.out.println(list2);
 			}
 		}
     		
