@@ -35,8 +35,8 @@ public class Student {
 		}
 
 		System.out.print("\n총점\t");
-		//System.out.print(Student2.korTotal + "\t");
-		//System.out.print(Student2.mathTotal + "\t");
-		//System.out.print(Student2.engTotal + "\n");
+		System.out.print(Student2.korTotal + "\t");
+		System.out.print(Student2.mathTotal + "\t");
+		System.out.print(Student2.engTotal + "\n");
 	}
 }
