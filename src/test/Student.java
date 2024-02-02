@@ -3,12 +3,12 @@ package test;
 import java.util.ArrayList;
 
 public class Student {
+	private String name;
+	private int kor, eng, math;
+	public static int korTotal;
+	public static int engTotal;
+	public static int mathTotal;
 	public static void main(String args[]) {
-		//Student2 h1 = new Student2("강호동", 85, 60, 70);
-		//Student2 h2 = new Student2("이승기", 90, 95, 80);
-		//Student2 h3 = new Student2("유재석", 75, 80, 100);
-		//Student2 h4 = new Student2("하하", 80, 70, 95);
-		//Student2 h5 = new Student2("이광수", 100, 65, 80);
 
 		ArrayList<Student2> as = new ArrayList<Student2>();
 		as.add(new Student2("강호동", 85, 60, 70));
